@@ -515,7 +515,7 @@ int main()
         if (initialTemp == 0) // Verifica se é a primeira vez que o loop é executado
         {
             print_commands(); // Imprime os comandos
-            initialTemp = 1;
+            initialTemp++;    // Incrementa a variavel
         }
         printf("\n> "); // Imprime o prompt
 
